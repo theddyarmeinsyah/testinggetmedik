@@ -1,0 +1,45 @@
+name: medik
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  exif: any
+  flutter_keyboard_visibility: any
+  cupertino_icons: ^1.0.2
+  shared_preferences: any
+  http: any
+  provider: ^4.0.4
+  sqflite: ^1.3.0
+  sliding_up_panel: ^1.0.2
+  intl: ^0.15.8
+  flutter_spinkit: ^4.1.2+1
+  jaguar_jwt: any
+  uuid: any
+  package_info: any
+  device_info: any
+  fluttertoast: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logoapp.png"
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  
